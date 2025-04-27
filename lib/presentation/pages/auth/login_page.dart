@@ -31,19 +31,16 @@ class _LoginPageState extends State<LoginPage> {
         children: [
           const SizedBox(height: 80),
           Center(
-            child: Image.asset(
-              'assets/logo.png', // Ganti sesuai asset yang kamu punya
-              width: 100,
-              height: 100,
-            ),
+            
           ),
           const SizedBox(height: 24),
           const Center(
             child: Text(
-              "ION Canteen",
+              "Gunawan Schools",
               style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.w700,
+                fontSize: 30
+                ,
+                fontWeight: FontWeight.w800,
                 color: Colors.black,
               ),
             ),
@@ -51,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
           const SizedBox(height: 3),
           const Center(
             child: Text(
-              'Healthy Meals for Happy Minds!',
+              'The ultimate School for the ultimate child ',
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.w400,
